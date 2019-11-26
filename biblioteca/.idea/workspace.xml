@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ad8e0e3-83f0-4a80-856f-a4842883155f" name="Default Changelist" comment="Cadastro generico">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ifpb/biblioteca/modelo/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ifpb/biblioteca/modelo/CadastroObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/biblioteca/modelo/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ifpb/biblioteca/visao/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/biblioteca/visao/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ad8e0e3-83f0-4a80-856f-a4842883155f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +78,30 @@
       <option name="presentableId" value="Default" />
       <updated>1574076343145</updated>
       <workItem from="1574076345820" duration="3643000" />
-      <workItem from="1574666448405" duration="2297000" />
+      <workItem from="1574666448405" duration="3070000" />
     </task>
+    <task id="LOCAL-00001" summary="Cadastro generico">
+      <created>1574679798583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574679798583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
