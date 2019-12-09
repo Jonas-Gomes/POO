@@ -12,6 +12,26 @@ public class App {
 
     }
 
+    private static void operacoesCollections(){
+
+
+
+    }
+
+    private static void operacoesFilasDuplas(){
+
+        Deque<String> filaDupla = new LinkedList<>();
+
+        filaDupla.offer("jose");
+        filaDupla.offerFirst("ester");
+        filaDupla.offerLast("homero");
+
+        while (!filaDupla.isEmpty()){
+            System.out.println(filaDupla.poll());
+        }
+
+    }
+
     private static void operacoesFilas(){
 
         Queue<Pessoa> pessoas = new LinkedList<>();
