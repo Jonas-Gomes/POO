@@ -16,6 +16,8 @@ public class App {
 
     private static void imprimirFilas() {
 
+        int i=0;
+
         //Cria a fila normal
         Queue<Pessoa> filaNormal = new LinkedList<>();
 
@@ -28,24 +30,29 @@ public class App {
 
         filaPrioritaria.offer(new Pessoa("444.444.444-04", "João", LocalDate.now()));
         filaPrioritaria.offer(new Pessoa("555.555.555-05", "Paula", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("666.666.666-06", "Leusivan", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("777.777.777-07", "Valdir", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("888.888.888-08", "Damião", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("999.999.999-09", "Neide", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("123.123.123-12", "Seu Zé", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("321.321.321-32", "Dona Maria", LocalDate.now()));
-        filaPrioritaria.offer(new Pessoa("213.213.213-13", "Dona Chica", LocalDate.now()));
 
         while (!filaPrioritaria.isEmpty()){
 
             //Imprime 3 itens da fila prioritária
-            for (int i=0; i<=2; i++) {
-                System.out.println("fila preferencial: " + filaPrioritaria.poll());
+            while (i <= 2){
+                if (filaPrioritaria.peek() == null) {
+                    break;
+                }
+                else {
+                    System.out.println("fila preferencial: " + filaPrioritaria.poll());
+                    i++;
+                }
             }
             //Ao imprimir 3 itens da fila prioritária, imrpime um da fila normal
             System.out.println("fila normal: " + filaNormal.poll());
-
+            i = 0;
         }
+
+        while (!filaNormal.isEmpty()){
+            System.out.println("fila normal: " + filaNormal.poll());
+        }
+
+
 
     }
 
