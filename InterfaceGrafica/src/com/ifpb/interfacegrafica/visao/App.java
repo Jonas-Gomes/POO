@@ -1,6 +1,8 @@
 package com.ifpb.interfacegrafica.visao;
 
 import com.ifpb.interfacegrafica.enumeration.Titulacao;
+import com.ifpb.interfacegrafica.telas.PrimeiraJanela;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -61,8 +63,8 @@ public class App {
 //                                       Titulacao.values(),
 //                                       Titulacao.Graduação);
 
-        
 
+        PrimeiraJanela janela = new PrimeiraJanela();
+        janela.setVisible(true);
         }
     }
-}
